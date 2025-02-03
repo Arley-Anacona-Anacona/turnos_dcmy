@@ -4,7 +4,7 @@ class Conexion {
     protected $db;
     private $host = "localhost";
     private $usuario = "root";
-    private $contrasena = "";
+    private $contrasena = "1234";
     private $driver = "mysql";
     private $bd = "bd_turnos";
     
