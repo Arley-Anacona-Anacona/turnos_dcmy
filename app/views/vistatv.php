@@ -125,7 +125,7 @@ require_once("../templates/boostrap.php");
     function hacerpeticion() {
       $.ajax({
         type: "GET",
-        url: "http://192.168.1.2/turnos_dcmy/app/controllers/obtener_turnos.php",
+        url: "http://192.168.0.106/turnos_dcmy/app/controllers/obtener_turnos.php",
         dataType: "json",
         success: function(data) {
           $("#ultimo").text(data.ultimo);
