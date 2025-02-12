@@ -43,19 +43,19 @@ require_once("../templates/boostrap.php");
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img style="object-fit: cover;" src="../../public/img/Droguería Cabildo Mayor Yanacona.jpg" class="d-block w-100" alt="">
+            <img style="object-fit: cover;" src="../../public/img/9.png" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
             <img style="object-fit: cover;" src="../../public/img/1.jpg" class="img-fluid" alt="...">
           </div>
           <div class="carousel-item">
-            <img style="object-fit: cover;" src="../../public/img/2.jpg" class="d-block w-100" alt="">
+            <img style="object-fit: cover;" src="../../public/img/2.png" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
             <img src="../../public/img/3.jpg" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
-            <img src="../../public/img/9.jpg" class="d-block w-100" alt="">
+            <img src="../../public/img/4.jpg" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
             <img src="../../public/img/4.jpg" class="d-block w-100" alt="">
@@ -70,7 +70,7 @@ require_once("../templates/boostrap.php");
             <img src="../../public/img/7.jpg" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
-            <img src="../../public/img/8.jpg" class="d-block w-100" alt="">
+            <img src="../../public/img/8.png" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
             <img src="../../public/img/10.jpg" class="d-block w-100" alt="">
@@ -125,7 +125,7 @@ require_once("../templates/boostrap.php");
     function hacerpeticion() {
       $.ajax({
         type: "GET",
-        url: "http://192.168.0.106/turnos_dcmy/app/controllers/obtener_turnos.php",
+        url: "http://192.168.1.17/turnos_dcmy/app/controllers/obtener_turnos.php",
         dataType: "json",
         success: function(data) {
           $("#ultimo").text(data.ultimo);
